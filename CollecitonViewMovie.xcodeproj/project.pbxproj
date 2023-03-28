@@ -7,23 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F37D229629D1CB6600F2FC7D /* filmler.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F37D229529D1CB6600F2FC7D /* filmler.sqlite */; };
+		F37D229829D1D3AC00F2FC7D /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D229729D1D3AC00F2FC7D /* Yonetmenler.swift */; };
 		F3940D3C29CF0E970075B467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D3B29CF0E970075B467 /* AppDelegate.swift */; };
 		F3940D3E29CF0E970075B467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D3D29CF0E970075B467 /* SceneDelegate.swift */; };
-		F3940D4029CF0E970075B467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D3F29CF0E970075B467 /* ViewController.swift */; };
+		F3940D4029CF0E970075B467 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D3F29CF0E970075B467 /* FilmViewController.swift */; };
 		F3940D4329CF0E970075B467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3940D4129CF0E970075B467 /* Main.storyboard */; };
 		F3940D4529CF0E990075B467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3940D4429CF0E990075B467 /* Assets.xcassets */; };
 		F3940D4829CF0E990075B467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3940D4629CF0E990075B467 /* LaunchScreen.storyboard */; };
+		F3940D5029CF142F0075B467 /* FilmHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D4F29CF142F0075B467 /* FilmHucre.swift */; };
+		F3940D5229CF15E40075B467 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D5129CF15E40075B467 /* Filmler.swift */; };
+		F3940D5429CF2BBE0075B467 /* KategoriHucreTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D5329CF2BBE0075B467 /* KategoriHucreTableCell.swift */; };
+		F3940D5629CF2BEE0075B467 /* KategoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D5529CF2BEE0075B467 /* KategoriViewController.swift */; };
+		F3940D5F29CF2D340075B467 /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D5E29CF2D340075B467 /* DetayViewController.swift */; };
+		F3940D6129CF32910075B467 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3940D6029CF32910075B467 /* Kategoriler.swift */; };
+		F3974EFD29CF492B00A5EABD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3974EF329CF492A00A5EABD /* FMDatabaseAdditions.m */; };
+		F3974EFE29CF492B00A5EABD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F3974EF429CF492A00A5EABD /* FMDatabasePool.m */; };
+		F3974EFF29CF492B00A5EABD /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F3974EF529CF492A00A5EABD /* FMDatabaseQueue.m */; };
+		F3974F0029CF492B00A5EABD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F3974EF629CF492A00A5EABD /* FMResultSet.m */; };
+		F3974F0129CF492B00A5EABD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3974EF929CF492A00A5EABD /* FMDatabase.m */; };
+		F3974F0229CF49A000A5EABD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3974EEB29CF47EE00A5EABD /* libsqlite3.tbd */; };
+		F3974F0729D07C4700A5EABD /* KategorilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974F0629D07C4700A5EABD /* KategorilerDao.swift */; };
+		F3974F0A29D07C6E00A5EABD /* FilmlerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974F0929D07C6E00A5EABD /* FilmlerDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F37D229529D1CB6600F2FC7D /* filmler.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = filmler.sqlite; path = "../../../../Downloads/Filmler Uygulaması - Sqlite Veritabanı 2/filmler.sqlite"; sourceTree = "<group>"; };
+		F37D229729D1D3AC00F2FC7D /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
 		F3940D3829CF0E970075B467 /* CollecitonViewMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollecitonViewMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3940D3B29CF0E970075B467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3940D3D29CF0E970075B467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3940D3F29CF0E970075B467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3940D3F29CF0E970075B467 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 		F3940D4229CF0E970075B467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3940D4429CF0E990075B467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3940D4729CF0E990075B467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3940D4929CF0E990075B467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3940D4F29CF142F0075B467 /* FilmHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmHucre.swift; sourceTree = "<group>"; };
+		F3940D5129CF15E40075B467 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		F3940D5329CF2BBE0075B467 /* KategoriHucreTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriHucreTableCell.swift; sourceTree = "<group>"; };
+		F3940D5529CF2BEE0075B467 /* KategoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriViewController.swift; sourceTree = "<group>"; };
+		F3940D5E29CF2D340075B467 /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+		F3940D6029CF32910075B467 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		F3974EEB29CF47EE00A5EABD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F3974EF029CF492A00A5EABD /* CollecitonViewMovie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollecitonViewMovie-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3974EF229CF492A00A5EABD /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F3974EF329CF492A00A5EABD /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F3974EF429CF492A00A5EABD /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F3974EF529CF492A00A5EABD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F3974EF629CF492A00A5EABD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F3974EF729CF492A00A5EABD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F3974EF829CF492A00A5EABD /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F3974EF929CF492A00A5EABD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F3974EFA29CF492A00A5EABD /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F3974EFB29CF492B00A5EABD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F3974EFC29CF492B00A5EABD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F3974F0629D07C4700A5EABD /* KategorilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerDao.swift; sourceTree = "<group>"; };
+		F3974F0929D07C6E00A5EABD /* FilmlerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3974F0229CF49A000A5EABD /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				F3940D3A29CF0E970075B467 /* CollecitonViewMovie */,
-				F3940D3929CF0E970075B467 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,20 +90,110 @@
 				F3940D3829CF0E970075B467 /* CollecitonViewMovie.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F3940D3A29CF0E970075B467 /* CollecitonViewMovie */ = {
 			isa = PBXGroup;
 			children = (
-				F3940D3B29CF0E970075B467 /* AppDelegate.swift */,
-				F3940D3D29CF0E970075B467 /* SceneDelegate.swift */,
-				F3940D3F29CF0E970075B467 /* ViewController.swift */,
+				F3974F0829D07C4E00A5EABD /* Dao */,
+				F3974F0529D07A0100A5EABD /* Database */,
+				F3974EEF29CF48A500A5EABD /* FMDB */,
+				F3940D6229CF32990075B467 /* SQLLite */,
+				F3940D5D29CF2CB80075B467 /* Cell */,
+				F3940D5A29CF2C930075B467 /* View */,
+				F3940D5929CF2C890075B467 /* Files */,
+			);
+			path = CollecitonViewMovie;
+			sourceTree = "<group>";
+		};
+		F3940D5929CF2C890075B467 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3940D3929CF0E970075B467 /* Products */,
+				F3974EEA29CF47EE00A5EABD /* Frameworks */,
 				F3940D4129CF0E970075B467 /* Main.storyboard */,
 				F3940D4429CF0E990075B467 /* Assets.xcassets */,
 				F3940D4629CF0E990075B467 /* LaunchScreen.storyboard */,
 				F3940D4929CF0E990075B467 /* Info.plist */,
 			);
-			path = CollecitonViewMovie;
+			name = Files;
+			sourceTree = "<group>";
+		};
+		F3940D5A29CF2C930075B467 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3940D5E29CF2D340075B467 /* DetayViewController.swift */,
+				F3940D5529CF2BEE0075B467 /* KategoriViewController.swift */,
+				F3940D3F29CF0E970075B467 /* FilmViewController.swift */,
+				F3940D3B29CF0E970075B467 /* AppDelegate.swift */,
+				F3940D3D29CF0E970075B467 /* SceneDelegate.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F3940D5D29CF2CB80075B467 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3940D5329CF2BBE0075B467 /* KategoriHucreTableCell.swift */,
+				F3940D4F29CF142F0075B467 /* FilmHucre.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		F3940D6229CF32990075B467 /* SQLLite */ = {
+			isa = PBXGroup;
+			children = (
+				F3940D5129CF15E40075B467 /* Filmler.swift */,
+				F3940D6029CF32910075B467 /* Kategoriler.swift */,
+				F37D229729D1D3AC00F2FC7D /* Yonetmenler.swift */,
+			);
+			name = SQLLite;
+			sourceTree = "<group>";
+		};
+		F3974EEA29CF47EE00A5EABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3974EEB29CF47EE00A5EABD /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F3974EEF29CF48A500A5EABD /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				F3974EFC29CF492B00A5EABD /* FMDatabase.h */,
+				F3974EF929CF492A00A5EABD /* FMDatabase.m */,
+				F3974EF729CF492A00A5EABD /* FMDatabaseAdditions.h */,
+				F3974EF329CF492A00A5EABD /* FMDatabaseAdditions.m */,
+				F3974EFA29CF492A00A5EABD /* FMDatabasePool.h */,
+				F3974EF429CF492A00A5EABD /* FMDatabasePool.m */,
+				F3974EFB29CF492B00A5EABD /* FMDatabaseQueue.h */,
+				F3974EF529CF492A00A5EABD /* FMDatabaseQueue.m */,
+				F3974EF829CF492A00A5EABD /* FMDB.h */,
+				F3974EF229CF492A00A5EABD /* FMResultSet.h */,
+				F3974EF629CF492A00A5EABD /* FMResultSet.m */,
+				F3974EF029CF492A00A5EABD /* CollecitonViewMovie-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		F3974F0529D07A0100A5EABD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F37D229529D1CB6600F2FC7D /* filmler.sqlite */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		F3974F0829D07C4E00A5EABD /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				F3974F0629D07C4700A5EABD /* KategorilerDao.swift */,
+				F3974F0929D07C6E00A5EABD /* FilmlerDao.swift */,
+			);
+			name = Dao;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +212,8 @@
 			dependencies = (
 			);
 			name = CollecitonViewMovie;
+			packageProductDependencies = (
+			);
 			productName = CollecitonViewMovie;
 			productReference = F3940D3829CF0E970075B467 /* CollecitonViewMovie.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +230,7 @@
 				TargetAttributes = {
 					F3940D3729CF0E970075B467 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -111,6 +243,9 @@
 				Base,
 			);
 			mainGroup = F3940D2F29CF0E970075B467;
+			packageReferences = (
+				F3974EEC29CF486200A5EABD /* XCRemoteSwiftPackageReference "fmdb" */,
+			);
 			productRefGroup = F3940D3929CF0E970075B467 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3940D4829CF0E990075B467 /* LaunchScreen.storyboard in Resources */,
+				F37D229629D1CB6600F2FC7D /* filmler.sqlite in Resources */,
 				F3940D4529CF0E990075B467 /* Assets.xcassets in Resources */,
 				F3940D4329CF0E970075B467 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +274,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3940D4029CF0E970075B467 /* ViewController.swift in Sources */,
+				F3940D6129CF32910075B467 /* Kategoriler.swift in Sources */,
+				F3974EFE29CF492B00A5EABD /* FMDatabasePool.m in Sources */,
+				F37D229829D1D3AC00F2FC7D /* Yonetmenler.swift in Sources */,
+				F3974F0029CF492B00A5EABD /* FMResultSet.m in Sources */,
+				F3974F0129CF492B00A5EABD /* FMDatabase.m in Sources */,
+				F3940D5429CF2BBE0075B467 /* KategoriHucreTableCell.swift in Sources */,
+				F3940D4029CF0E970075B467 /* FilmViewController.swift in Sources */,
+				F3974EFF29CF492B00A5EABD /* FMDatabaseQueue.m in Sources */,
+				F3940D5F29CF2D340075B467 /* DetayViewController.swift in Sources */,
+				F3974F0A29D07C6E00A5EABD /* FilmlerDao.swift in Sources */,
+				F3940D5029CF142F0075B467 /* FilmHucre.swift in Sources */,
 				F3940D3C29CF0E970075B467 /* AppDelegate.swift in Sources */,
+				F3940D5629CF2BEE0075B467 /* KategoriViewController.swift in Sources */,
+				F3974EFD29CF492B00A5EABD /* FMDatabaseAdditions.m in Sources */,
+				F3974F0729D07C4700A5EABD /* KategorilerDao.swift in Sources */,
+				F3940D5229CF15E40075B467 /* Filmler.swift in Sources */,
 				F3940D3E29CF0E970075B467 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3QG2M234BJ;
@@ -303,6 +454,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakupsuda.CollecitonViewMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CollecitonViewMovie/CollecitonViewMovie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3QG2M234BJ;
@@ -331,6 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakupsuda.CollecitonViewMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CollecitonViewMovie/CollecitonViewMovie-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,6 +513,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3974EEC29CF486200A5EABD /* XCRemoteSwiftPackageReference "fmdb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ccgus/fmdb";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = F3940D3029CF0E970075B467 /* Project object */;
 }
